@@ -10,7 +10,7 @@ Welcome to viobot_doc's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Viobot_stereo3_test_20230103
+   dhcp
 
 Indices and tables
 ==================

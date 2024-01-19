@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Viobot stereo3测试20230103 &mdash; viobot_doc 0.0 documentation</title>
+  <title>dhcp &mdash; viobot_doc 0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -45,14 +45,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Viobot stereo3测试20230103</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id1">开销对比：</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">测试1：</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">测试2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">测试3：</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id5">测试4：</a></li>
-</ul>
-</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">dhcp</a></li>
 </ul>
 
         </div>
@@ -69,9 +62,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Viobot stereo3测试20230103</li>
+      <li class="breadcrumb-item active">dhcp</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/Viobot_stereo3_test_20230103.md.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/dhcp.md.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -79,55 +72,17 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="viobot-stereo320230103">
-<h1>Viobot stereo3测试20230103<a class="headerlink" href="#viobot-stereo320230103" title="Link to this heading"></a></h1>
-<p>当前stereo3版本：泰可斯项目版本减掉了该项目的通信代码,关掉了一些特定配置</p>
-<p>测试对比项：stereo2</p>
-<section id="id1">
-<h2>开销对比：<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>​	静止开销： S2:95%~140%       S3:130%~150%</p>
-<p>​	运动开销： S2:150%~420%      S3:150%~360%</p>
-<p>​	开销峰值： S2:420%                 S3:360%</p>
-</section>
-<section id="id2">
-<h2>测试1：<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<p>​	单圈无外部干扰测试：</p>
-<p>​	stereo2：x:-0.1535    y:-0.2544  z:0.402</p>
-<p><img alt="image/1704267227052_e2JKcpzfdx.jpg" src="image/1704267227052_e2JKcpzfdx.jpg" /></p>
-<p>​	stereo3:   x:  -0.1535 y: -0.1768  z: -0.3546</p>
-<p><img alt="image/1704267410471_Wcwe4jSHCO.jpg" src="image/1704267410471_Wcwe4jSHCO.jpg" /></p>
-<p>​	结论：单圈无外部干扰下，跑圈精度相差不大</p>
-</section>
-<section id="id3">
-<h2>测试2<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<p>直线距离测试：</p>
-<p>​	真实里程20m</p>
-<p>​	stereo2里程：19.90m</p>
-<p>​	stereo3里程：19.98m</p>
-<p>​	真实里程：11.56m</p>
-<p>​	stereo2里程：11.44m  z轴抬升0.12m</p>
-<p>​	stereo3里程：11.4856m z轴抬升0.12m</p>
-<p>​	结论：两者表现都很好</p>
-</section>
-<section id="id4">
-<h2>测试3：<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<p>​	有外部冲击，碾过一条线槽，轻跳了一下</p>
-<p>​	stereo2：引入偏差，但对整体精度影响不大</p>
-<p><img alt="image/1704267307465_mkfXgFJ1FX.jpg" src="image/1704267307465_mkfXgFJ1FX.jpg" /></p>
-<p>​	stereo3：直接甩飞</p>
-<p><img alt="image/1704267505875_egyJVoNLUM.jpg" src="image/1704267505875_egyJVoNLUM.jpg" /></p>
-<p>​	结论：stereo3鲁棒性较差</p>
-</section>
-<section id="id5">
-<h2>测试4：<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<p>​	拿在手上上下左右往返运动。</p>
-<p>​	stereo2：会有误差引入，但是基本能够稳定在原位附近</p>
-<p><img alt="image/image_AKTc2rd-aD.png" src="image/image_AKTc2rd-aD.png" /></p>
-<p>​	stereo3:容易飘出去，位姿离谱</p>
-<p><img alt="image/image_DGd8Xu3WBf.png" src="image/image_DGd8Xu3WBf.png" /></p>
-<p>​	结论：stereo3鲁棒性较差</p>
-<p>其他问题：stereo3静止时画面提点会乱跳，容易被画面的移动物体带跑。</p>
-</section>
+  <section id="dhcp">
+<h1>dhcp<a class="headerlink" href="#dhcp" title="Link to this heading"></a></h1>
+<p>UI按打开，找到install/share/viobot/config/viobot.yaml文件打开，把net_config_set改成false，保存，重启设备。</p>
+<p><img alt="_images/1684140016902_FfcrIbfqcF.jpg" src="_images/1684140016902_FfcrIbfqcF.jpg" /></p>
+<p>电脑ip加一个段：10.21.0.100   </p>
+<p>再远程进去ssh <a class="reference external" href="mailto:root&#37;&#52;&#48;10&#46;21&#46;0&#46;223">root<span>&#64;</span>10<span>&#46;</span>21<span>&#46;</span>0<span>&#46;</span>223</a> </p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vim<span class="w"> </span>/etc/netplan/01-netcfg.yaml
+</pre></div>
+</div>
+<p>把dhcp4改成yes，下面几行全部注释掉</p>
+<p><img alt="_images/image_f-ZSti1D88.png" src="_images/image_f-ZSti1D88.png" /></p>
 </section>
 
 
