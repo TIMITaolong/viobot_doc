@@ -19,7 +19,6 @@ Welcome to viobot_doc's documentation!
    算法控制
    回环使用
    运行效果可视化
-   ROS主从机配置/index
    硬件接口使用/index 
    
 
