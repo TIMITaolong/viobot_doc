@@ -11,6 +11,7 @@ Welcome to viobot_doc's documentation!
    :caption: Contents:
 
    dhcp
+   Viobot开机指南
 
 Indices and tables
 ==================
