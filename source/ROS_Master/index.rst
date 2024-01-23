@@ -3,15 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-硬件接口使用
+ROS主从机配置的两种方式
 ======================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   TF卡挂载
-   Viobot串口通信
-   Viobot的I2C使用
-   Viobot的CAN使用
+   ROS主从机配置
+   ROS多主机配置
+   
+
 
