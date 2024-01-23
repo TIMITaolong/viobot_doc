@@ -10,8 +10,14 @@ Welcome to viobot_doc's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   dhcp
+   Viobot简介
    Viobot开机指南
+   硬件组成和接口
+   基本功能使用和介绍
+   硬件控制
+   算法控制
+   输出数据说明
+   回环使用
 
 Indices and tables
 ==================
