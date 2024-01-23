@@ -19,8 +19,12 @@ Welcome to viobot_doc's documentation!
    算法控制
    回环使用
    运行效果可视化
+   网卡挂载与wifi连接
+   Viobot数据包录制
+   算法运行基本参数配置
    ROS_Master/index
-   硬件接口使用/index 
+   硬件接口使用/index
+   application/index  
    
 
 Indices and tables
